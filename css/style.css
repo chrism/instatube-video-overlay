@@ -4,7 +4,8 @@ body {
   margin: 0;
   background: url("../assets/videos/manipulator.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 @font-face {
   font-family: 'CentralSans';
@@ -13,36 +14,47 @@ body {
   src: url("/assets/fonts/2BE220_1_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/2BE220_1_0.woff") format("woff"), url("/assets/fonts/2BE220_1_0.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-style: normal;
-  font-weight: 200; }
+  font-weight: 200;
+}
 
 .overlay-content {
   box-sizing: border-box;
   width: 100%;
   background: rgba(27, 56, 79, 0.85);
   height: 50px;
-  padding: 10px 10px; }
-  @media only screen and (min-width: 640px) {
-    .overlay-content {
-      height: 80px;
-      padding: 15px 20px; } }
-  @media only screen and (min-width: 1280px) {
-    .overlay-content {
-      height: 110px;
-      padding: 20px 30px; } }
+  padding: 10px 10px;
+}
+@media only screen and (min-width: 640px) {
+  .overlay-content {
+    height: 80px;
+    padding: 15px 20px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .overlay-content {
+    height: 110px;
+    padding: 20px 30px;
+  }
+}
 
 #instatube-logo {
   float: left;
   fill: #ff4f4f;
   width: 120px;
-  margin-right: 10px; }
-  @media only screen and (min-width: 640px) {
-    #instatube-logo {
-      width: 200px;
-      margin-right: 20px; } }
-  @media only screen and (min-width: 1280px) {
-    #instatube-logo {
-      width: 280px;
-      margin-right: 40px; } }
+  margin-right: 10px;
+}
+@media only screen and (min-width: 640px) {
+  #instatube-logo {
+    width: 200px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  #instatube-logo {
+    width: 280px;
+    margin-right: 40px;
+  }
+}
 
 h1 {
   margin: 0;
@@ -52,17 +64,22 @@ h1 {
   text-overflow: ellipsis;
   width: calc(100% - 150px);
   margin-top: -3px;
-  font-size: 14px; }
-  @media only screen and (min-width: 640px) {
-    h1 {
-      width: calc(100% - 250px);
-      margin-top: -5px;
-      font-size: 24px; } }
-  @media only screen and (min-width: 1280px) {
-    h1 {
-      width: calc(100% - 350px);
-      margin-top: -8px;
-      font-size: 36px; } }
+  font-size: 14px;
+}
+@media only screen and (min-width: 640px) {
+  h1 {
+    width: calc(100% - 250px);
+    margin-top: -5px;
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  h1 {
+    width: calc(100% - 350px);
+    margin-top: -8px;
+    font-size: 36px;
+  }
+}
 
 h2 {
   margin: 0;
@@ -71,14 +88,20 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 10px;
-  width: calc(100% - 150px); }
-  h2 span {
-    color: #bce4f7; }
-  @media only screen and (min-width: 640px) {
-    h2 {
-      width: calc(100% - 250px);
-      font-size: 16px; } }
-  @media only screen and (min-width: 1280px) {
-    h2 {
-      width: calc(100% - 350px);
-      font-size: 24px; } }
+  width: calc(100% - 150px);
+}
+h2 span {
+  color: #bce4f7;
+}
+@media only screen and (min-width: 640px) {
+  h2 {
+    width: calc(100% - 250px);
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  h2 {
+    width: calc(100% - 350px);
+    font-size: 24px;
+  }
+}
