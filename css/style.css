@@ -1,6 +1,10 @@
 body {
   font-family: CentralSans;
-  background: #4fabd7; }
+  background: #4fabd7;
+  margin: 0;
+  background: url("../assets/videos/manipulator.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 @font-face {
   font-family: 'CentralSans';
@@ -12,42 +16,27 @@ body {
   font-weight: 200; }
 
 #instatube-logo {
-  width: 280px;
   float: left;
   fill: #ff4f4f;
+  width: 280px;
   margin-right: 40px; }
-
-.framed-video {
-  margin: 40px;
-  width: 1280px;
-  height: 720px; }
 
 .overlay-content {
   box-sizing: border-box;
   width: 100%;
+  background: rgba(27, 56, 79, 0.85);
   height: 110px;
-  padding: 20px 30px;
-  background: rgba(27, 56, 79, 0.85); }
+  padding: 20px 30px; }
 
 h1 {
-  font-size: 36px;
   margin: 0;
-  margin-top: -3px;
-  color: white; }
+  color: white;
+  font-size: 36px;
+  margin-top: -3px; }
 
 h2 {
-  font-size: 24px;
   margin: 0;
-  color: #458fb2; }
+  color: #458fb2;
+  font-size: 24px; }
   h2 span {
     color: #bce4f7; }
-
-.ariel-pink {
-  background: url("../assets/videos/ariel-pink.jpg");
-  background-size: 1280px 720px;
-  background-repeat: no-repeat; }
-
-.manipulator {
-  background: url("../assets/videos/manipulator.jpg");
-  background-size: 1280px 720px;
-  background-repeat: no-repeat; }

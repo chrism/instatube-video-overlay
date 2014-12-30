@@ -7,6 +7,11 @@ $instatube-extra-light-blue: #bce4f7;
 body {
   font-family: CentralSans;
   background: $instatube-light-blue;
+  margin: 0;
+
+  background: url('../assets/videos/manipulator.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @font-face {
@@ -21,54 +26,36 @@ body {
 }
 
 #instatube-logo {
-  width: 280px;
   float: left;
   fill: $instatube-pink;
+
+  width: 280px;
   margin-right: 40px;
-}
-
-.framed-video {
-  margin: 40px;
-
-  width: 1280px;
-  height: 720px;
 }
 
 .overlay-content {
   box-sizing: border-box;
-
   width: 100%;
+  background: rgba($instatube-blue, 0.85);
+
   height: 110px;
   padding: 20px 30px;
-
-  background: rgba($instatube-blue, 0.85);
 }
 
 h1 {
-  font-size: 36px;
   margin: 0;
-  margin-top: -3px;
   color: white;
+
+  font-size: 36px;
+  margin-top: -3px;
 }
 
 h2 {
-  font-size: 24px;
   margin: 0;
   color: $instatube-mid-blue;
-
   span {
     color: $instatube-extra-light-blue;
   }
-}
 
-.ariel-pink {
-  background: url('../assets/videos/ariel-pink.jpg');
-  background-size: 1280px 720px;
-  background-repeat: no-repeat;
-}
-
-.manipulator {
-  background: url('../assets/videos/manipulator.jpg');
-  background-size: 1280px 720px;
-  background-repeat: no-repeat;
+  font-size: 24px;
 }
