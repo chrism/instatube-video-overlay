@@ -15,28 +15,56 @@ body {
   font-style: normal;
   font-weight: 200; }
 
-#instatube-logo {
-  float: left;
-  fill: #ff4f4f;
-  width: 280px;
-  margin-right: 40px; }
-
 .overlay-content {
   box-sizing: border-box;
   width: 100%;
   background: rgba(27, 56, 79, 0.85);
-  height: 110px;
-  padding: 20px 30px; }
+  height: 50px;
+  padding: 10px 10px; }
+  @media only screen and (min-width: 640px) {
+    .overlay-content {
+      height: 80px;
+      padding: 15px 20px; } }
+  @media only screen and (min-width: 1280px) {
+    .overlay-content {
+      height: 110px;
+      padding: 20px 30px; } }
+
+#instatube-logo {
+  float: left;
+  fill: #ff4f4f;
+  width: 120px;
+  margin-right: 10px; }
+  @media only screen and (min-width: 640px) {
+    #instatube-logo {
+      width: 200px;
+      margin-right: 20px; } }
+  @media only screen and (min-width: 1280px) {
+    #instatube-logo {
+      width: 280px;
+      margin-right: 40px; } }
 
 h1 {
   margin: 0;
   color: white;
-  font-size: 36px;
-  margin-top: -3px; }
+  font-size: 14px; }
+  @media only screen and (min-width: 640px) {
+    h1 {
+      font-size: 24px; } }
+  @media only screen and (min-width: 1280px) {
+    h1 {
+      font-size: 36px;
+      margin-top: -3px; } }
 
 h2 {
   margin: 0;
   color: #458fb2;
-  font-size: 24px; }
+  font-size: 10px; }
   h2 span {
     color: #bce4f7; }
+  @media only screen and (min-width: 640px) {
+    h2 {
+      font-size: 16px; } }
+  @media only screen and (min-width: 1280px) {
+    h2 {
+      font-size: 24px; } }
