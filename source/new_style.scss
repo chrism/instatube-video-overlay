@@ -1,0 +1,38 @@
+@import 'bourbon';
+
+$instatube-blue: #1b384f;
+$instatube-pink: #ff4f4f;
+$instatube-mid-blue: #458fb2;
+$instatube-light-blue: #4fabd7;
+
+h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+body {
+  font-family: 'CentraleSansRnd';
+  background: $instatube-light-blue;
+  margin: 0;
+
+  background: url('../assets/videos/ariel-pink.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay-content {
+  @include box-sizing(border-box);
+  width: 100%;
+  height: 100%;
+
+
+  @include prefixer(display, flex, webkit moz spec);
+  @include prefixer(justify-content, center, webkit moz spec);
+  @include prefixer(align-items, center, webkit moz spec);
+
+  padding: 0 10%;
+
+  background-color: rgba($instatube-blue, 0.8);
+}

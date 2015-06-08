@@ -1,0 +1,31 @@
+h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-size: 60px; }
+
+body {
+  font-family: 'CentraleSansRnd';
+  background: #4fabd7;
+  margin: 0;
+  background: url("../assets/videos/ariel-pink.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.overlay-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  -webkit-display: flex;
+  -moz-display: flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  padding: 0 10%;
+  background-color: rgba(27, 56, 79, 0.8); }
